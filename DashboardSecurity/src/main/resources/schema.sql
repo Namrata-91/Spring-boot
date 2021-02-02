@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS bank;
+
+
+CREATE TABLE bank (
+  id INT NOT NULL AUTO_INCREMENT,
+  name VARCHAR(45) NULL,
+  mobilenumber INT NULL,
+  address VARCHAR(45) NULL,
+  PRIMARY KEY (id));
