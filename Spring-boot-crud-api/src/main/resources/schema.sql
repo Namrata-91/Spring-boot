@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS ticket;
+CREATE TABLE ticket (
+  id INT NOT NULL AUTO_INCREMENT,
+  amount DOUBLE NULL,
+  catagory VARCHAR(45) NULL,
+  PRIMARY KEY (id));
