@@ -33,6 +33,15 @@ Maven application pom.xml files is able to provide following configuration.
 * Packaging: We can select the packing of the project. We can choose either Jar or War.
 * Java: We can select the JVM version which we want to use.
 
+# Spring boot starters
+Spring Boot provides a number of starters that allow us to add jars in the classpath. Spring Boot built-in starters make development easier and rapid. Spring Boot Starters are the dependency descriptors.
+
+# Spring Actuator
+Actuator endpoints let you monitor and interact with your application. Spring Boot Actuator provides the infrastructure required for actuator endpoints. It contains annotation support for actuator endpoints. This module provides many endpoints, including the HealthEndpoint, EnvironmentEndpoint, BeansEndpoint, and many more.
+
+# Spring-boot-devtools
+DevTools stands for Developer Tool.The spring-boot-devtools module provides additional development-time features, such as automatic restarts, for a smoother application development experience. 
+
 # Spring Boot Annotation
 * __@SpringBootApplication__
   @SpringBootApplication annotation in our Application or Main class.
