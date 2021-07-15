@@ -1,0 +1,25 @@
+cloud:
+  aws:
+    region:
+      static: ap-northeast-1
+      auto: false
+    stack:
+      auto: false
+    credentials:
+      access-key: <access-key>
+      secret-key: <secret-key>
+    end-point:
+      uri: 
+
+
+server:
+  port: 8085
+
+
+
+
+
+
+
+
+
